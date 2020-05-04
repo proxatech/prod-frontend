@@ -5840,13 +5840,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         this.roles = [// { label: 'Super Admin', value: 1 },
         {
           label: 'Admin',
-          value: 1
-        }, {
-          label: 'HR',
           value: 2
         }, {
-          label: 'Employee',
+          label: 'HR',
           value: 3
+        }, {
+          label: 'Employee',
+          value: 4
         }];
         this.employee = new _app_shared_models_employee_model__WEBPACK_IMPORTED_MODULE_1__["Employee"]();
         this.addEmployeeForm = this.fb.group({
