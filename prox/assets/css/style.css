@@ -1422,6 +1422,10 @@ table.dataTable thead > tr > td.sorting {
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
+.sidebar-menu li.active a {
+    color: #fff;
+    background-color: #263238;
+}
 .noti-dot:before {
 	content: '';
 	width: 5px;
@@ -5996,7 +6000,7 @@ table.table-inbox tbody tr.checked {
 	display: block;
 	cursor: pointer;
 }
-.actions a:last-child{
+.actions a.delete{
 	color: red;
 	cursor: pointer;
 }
@@ -8452,4 +8456,12 @@ ul.comment-list li ul.children {
 		font-size: 14px;
 		min-width: inherit;
 	}
+}
+
+.ui-autocomplete .ui-widget{
+	width: 100%;
+}
+
+.drop-down-icons {
+	padding-right: 5px;
 }

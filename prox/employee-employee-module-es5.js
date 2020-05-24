@@ -37,9 +37,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*! @app/core/service/auth.service */
     "./src/app/core/service/auth.service.ts");
 
-    var EmployeeDashboardComponent =
-    /*#__PURE__*/
-    function () {
+    var EmployeeDashboardComponent = /*#__PURE__*/function () {
       function EmployeeDashboardComponent(authService) {
         _classCallCheck(this, EmployeeDashboardComponent);
 
